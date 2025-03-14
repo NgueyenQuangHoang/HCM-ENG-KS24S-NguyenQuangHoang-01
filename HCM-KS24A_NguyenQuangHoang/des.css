@@ -7,7 +7,7 @@ body {
 
     position: relative;
     width: 1440px;
-    height: 2604px;
+    height: 716x;
 
     background: #FFFFFF;
 
@@ -59,7 +59,7 @@ header {
     gap: 12px;
     align-self: center;
 
-    margin: 0 auto;
+    margin: 0;
     width: 139.91px;
     height: 40px;
     font-family: 'Sora';
@@ -102,10 +102,10 @@ nav {
     align-items: center;
     padding: 0px;
     gap: 32px;
-
-    margin: 0 auto;
+    ;
     width: 437px;
     height: 24px;
+    margin: 0 auto;
 
 
     flex: none;
@@ -187,7 +187,7 @@ nav ul li a {
     padding: 16px 20px;
     gap: 8px;
 
-    margin: 0 auto;
+
     width: 153px;
     height: 56px;
 
@@ -240,7 +240,7 @@ nav ul li a {
     width: 320px;
     height: 64px;
     left: 112px;
-    top: 620px;
+    top: 720px;
 
     flex: none;
     order: 0;
@@ -454,6 +454,63 @@ nav ul li a {
 
     width: 277px;
     height: 56px;
+    display: flex;
+    align-items: center;
+
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 2px #000000;
+    text-shadow: none;
+    letter-spacing: 2px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.frame45 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 351px;
+    height: 56px;
+
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.frame45 .p5 {
+
+    width: 199px;
+    height: 56px;
+
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame45 .p6 {
+
+    width: 130px;
+    height: 56px;
 
     font-family: 'Sora';
     font-style: normal;
@@ -468,5 +525,550 @@ nav ul li a {
     flex: none;
     order: 1;
     flex-grow: 0;
+}
 
+.frame47 p {
+    width: 600px;
+    height: 96px;
+    margin-top: 10px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #71717A;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.banner2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+    isolation: isolate;
+
+    margin: 0 auto;
+    width: 889px;
+    height: 596px;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.banner2 img {
+    position: absolute;
+    width: 889px;
+    height: 596px;
+    left: 500px;
+    top: 160px;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+
+}
+
+.skill {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 80px;
+
+    width: 1440px;
+    height: 728px;
+
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+.skill .container-s {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 32px;
+    gap: 20px;
+
+    width: 1280px;
+    height: 608px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.skill .container-s .row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 16px;
+
+    width: 1216px;
+    height: 96px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.skill .container-s .row1 .my {
+
+    width: 70px;
+    height: 56px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.skill .container-s .row1 .skill1 {
+    width: 134px;
+    height: 56px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.skill .container-s .row2 .col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+
+    width: 1216px;
+    height: 226px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.skill .container-s .row2 .col button {
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 32px;
+
+    margin: 0 auto;
+    width: 186px;
+    height: 186px;
+
+    font-family: 'Sora';
+    font-size: 16px;
+
+
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 4px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.icon {
+    width: 56px;
+    height: 56px;
+    font-size: 50px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.skill .container-s .row2 .col button:hover {
+    background: #000000;
+    color: white;
+}
+
+.testimonial {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 60px 80px;
+
+    width: 1440px;
+    height: 956px;
+
+    background: #000000;
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+
+}
+
+.testimonial .container-t {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 32px;
+    gap: 20px;
+
+    width: 1280px;
+    height: 836px;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.testimonial .container-t .row3 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 16px;
+
+    width: 1216px;
+    height: 96px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.testimonial .container-t .row3 .My {
+
+    width: 70px;
+    height: 56px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.testimonial .container-t .row3 .Experience {
+
+    width: 272px;
+    height: 56px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.testimonial .container-t .row4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 24px;
+    gap: 32px;
+
+    width: 1216px;
+    height: 720px;
+
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.row4 .experience {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 24px;
+    gap: 28px;
+
+    width: 1168px;
+    height: 192px;
+
+    border: 1px solid #71717A;
+    border-radius: 10px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.frame887 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 188px;
+
+    width: 1120px;
+    height: 32px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.frame887 div {
+    width: 403px;
+    height: 28px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.frame886 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+
+    margin: 0 auto;
+    width: 1018px;
+    height: 32px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.frame886 img {
+    width: 32px;
+    height: 32px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame886 div {
+    width: 403px;
+    height: 28px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.experience .content {
+    width: 1100px;
+    height: 72px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #D4D4D8;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.experience:hover {
+    border-color: #FFFFFF;
+    background-color: #575757;
+    color: #000000;
+}
+
+footer {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 80px;
+
+    width: 1440px;
+    height: 100px;
+
+    background: #000000;
+    color: white;
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+
+}
+
+footer .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+
+    margin: 0 auto;
+    width: 139.91px;
+    height: 40px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+footer .left img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+footer .left p {
+    width: 88px;
+    height: 24px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+footer .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 12px;
+
+    margin: 0 auto;
+    width: 181px;
+    height: 52px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+footer .right p {
+    width: 181px;
+    height: 20px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
